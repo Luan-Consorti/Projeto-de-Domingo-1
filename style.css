@@ -1,0 +1,144 @@
+body{
+    margin-top: 10%;
+    font-family:  monospace;
+    font-size: larger;
+    text-align: center;
+    background-image: linear-gradient(to right,#00FA9A,#228B22);
+
+}
+
+#inicio {
+    color: white;
+    font-size: 55px ;
+    font-family:Impact;
+    font-style: oblique;
+    position: relative;
+    text-align: center;
+    
+}
+
+#números {
+   height: 30px;
+   width: 300px;
+   font-style: italic;
+   border-style:solid;
+   background-color: beige;
+   position: relative;
+   border-radius: 8px;
+   
+   
+}
+
+#números:focus{
+    outline: none;
+}
+
+#jogar{
+    position: relative;
+  background-color: beige;
+  border-radius: 5px;
+  box-shadow: black;
+  padding: 0px;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  width: 100px;
+  height: 40px;
+  color: black;
+  border: none;
+  font-size: 20px;
+  font-family:monospace;
+  text-align:center;
+  transition: all .3s ease-in-out;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#Limpar{
+  position: relative;
+background-color: beige;
+border-radius: 5px;
+box-shadow: black;
+padding: 0px;
+background-repeat: no-repeat;
+box-sizing: border-box;
+width: 100px;
+height: 40px;
+color: black;
+border: none;
+font-size: 20px;
+font-family:monospace;
+text-align:center;
+transition: all .3s ease-in-out;
+z-index: 1;
+overflow: hidden;
+}
+
+button::before {
+    content: "";
+    background-image: linear-gradient(to right,#00FA9A,#228B22);
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 700ms ease-in-out;
+    display: inline-block;
+  }
+  
+  button:hover::before {
+    width: 100%;
+  }
+
+#número-sorteado{
+    text-align: center;
+    font-family: monospace;
+}
+
+#Jogados{
+  list-style: none;
+  padding-right: 42px;
+  color: white;
+}
+
+#Jogados li {
+  text-align: center;
+  height: 20px;
+  position: relative;
+  
+}
+#Sorteados {
+  list-style: none;
+  padding-right: 42px;
+  color: white;
+}
+
+#Sorteados li {
+  text-align: center;
+  height: 20px;
+  position: relative;
+  
+}
+
+#Acertos {
+  list-style: none;
+  padding-right: 42px;
+  color: white;
+}
+
+#Acertos li {
+  text-align: center;
+  height: 20px;
+  position: relative;
+  
+}
+
+#titulo{
+  padding: 0px;
+  color: black;
+  font-size: 20px;
+  font-family:monospace;
+  text-align:center;
+  
+  
+}

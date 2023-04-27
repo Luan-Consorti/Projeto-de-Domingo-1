@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega-Sena</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id = "inicio"> 
+        <h1> MEGA-SENA</h1>
+
+        <input type="text" id = "números" placeholder="Digite 6 números espaçados">
+        <div>
+            <button class = "click" id = "jogar" type="submit">Jogue</button>
+            <button class = "click" id = "Limpar" type="submit">Limpar</button>
+        </div>
+    </div>
+   <div id = "bloco">
+            <ul id ="Jogados">
+                <h2> Seu Jogo: </h2>
+                <li id = "titulo" class = "task-box template hide">
+                    <span id="aa" class = "task-title"></span>
+                </li>
+            </ul>
+   </div>  
+   <div id = "bloco1">
+    <ul id ="Sorteados">
+        <h2>Sorteado: </h2>
+        <li class = "task-box template hide">
+            
+            <span class = "task-title"></span>
+        </li>
+    </ul>
+</div>
+<div id = "bloco2">
+    <ul id ="Acertos">
+        <h2>Acertos: </h2>
+        <li class = "task-box template hide">
+            <span class = "task-title"></span>
+        </li>
+    </ul>
+</div> 
+    <script src="js/scripts.js"></script>
+    
+    
+</body>
+</html>
